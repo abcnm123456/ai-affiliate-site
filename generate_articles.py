@@ -8,12 +8,15 @@ import os
 import random
 from datetime import datetime, timedelta
 
+# Amazon Associates Affiliate Tag
+AMAZON_AFFILIATE_TAG = "sinq-20"
+
 # AI 工具資料庫
 AI_TOOLS = [
     {
         "name": "ChatGPT",
         "category": "AI 聊天機器人",
-        "affiliate_url": "https://chat.openai.com",
+        "affiliate_url": "https://chat.openai.com?affiliate=sinq-20",
         "pros": ["強大的對話能力", "多語言支持", "免費版本可用", "Plugins 擴展功能"],
         "cons": ["有使用限制", "知識有截止日期", "需要科學上網"],
         "price": "免費 / $20/月 (Plus)",
@@ -22,7 +25,7 @@ AI_TOOLS = [
     {
         "name": "Claude",
         "category": "AI 助手",
-        "affiliate_url": "https://claude.ai",
+        "affiliate_url": "https://claude.ai?ref=sinq-20",
         "pros": ["長文本處理能力強", "安全性高", "分析深入", "支持檔案上傳"],
         "cons": ["需要有 Anthropic 帳號", "回應速度有時較慢"],
         "price": "免費 / $20/月 (Pro)",
@@ -31,7 +34,7 @@ AI_TOOLS = [
     {
         "name": "Notion AI",
         "category": "智慧筆記",
-        "affiliate_url": "https://notion.so/product/ai",
+        "affiliate_url": "https://notion.so/product/ai?affiliate=sinq-20",
         "pros": ["無縫整合 Notion", "自動總結功能", "智慧搜尋", "多語言翻譯"],
         "cons": ["需要 Notion 訂閱", "功能相對有限"],
         "price": "$10/月起",
@@ -40,7 +43,7 @@ AI_TOOLS = [
     {
         "name": "Canva AI",
         "category": "AI 設計",
-        "affiliate_url": "https://www.canva.com/ai/",
+        "affiliate_url": "https://www.canva.com/ai/?ref=sinq-20",
         "pros": ["操作簡單", "Magic Design 功能", "AI 圖像生成", "豐富模板"],
         "cons": ["Pro 功能需要付費", "輸出有浮水印（免費版）"],
         "price": "免費 / $12.99/月 (Pro)",
@@ -49,7 +52,7 @@ AI_TOOLS = [
     {
         "name": "Midjourney",
         "category": "AI 圖像生成",
-        "affiliate_url": "https://www.midjourney.com",
+        "affiliate_url": "https://www.midjourney.com?ref=sinq-20",
         "pros": ["生成品質極高", "藝術風格多樣", "社群活躍", "持續更新"],
         "cons": ["需要 Discord", "需要付費才能使用", "有使用限制"],
         "price": "$10/月起",
@@ -58,7 +61,7 @@ AI_TOOLS = [
     {
         "name": "Jasper",
         "category": "AI 文案生成",
-        "affiliate_url": "https://www.jasper.ai",
+        "affiliate_url": "https://www.jasper.ai?ref=sinq-20",
         "pros": ["專為行銷設計", "多種模板", "品牌聲音設定", "團隊協作"],
         "cons": ["價格較高", "需要學習使用方式"],
         "price": "$49/月起",
@@ -67,7 +70,7 @@ AI_TOOLS = [
     {
         "name": "Runway",
         "category": "AI 影片",
-        "affiliate_url": "https://runwayml.com",
+        "affiliate_url": "https://runwayml.com?ref=sinq-20",
         "pros": ["文字轉影片", "智慧編輯", "多項 AI 功能", "持續上新功能"],
         "cons": ["處理時間較長", "高品質輸出需付費"],
         "price": "免費試用 / $15/月起",
@@ -76,7 +79,7 @@ AI_TOOLS = [
     {
         "name": "Copy.ai",
         "category": "AI 文案工具",
-        "affiliate_url": "https://www.copy.ai",
+        "affiliate_url": "https://www.copy.ai?ref=sinq-20",
         "pros": ["操作簡單", "大量模板", "多語言支持", "有免費方案"],
         "cons": ["生成品質參差不齊", "需要人工潤飾"],
         "price": "免費 / $36/月起",
@@ -85,7 +88,7 @@ AI_TOOLS = [
     {
         "name": "Grammarly",
         "category": "AI 寫作助手",
-        "affiliate_url": "https://www.grammarly.com",
+        "affiliate_url": "https://www.grammarly.com?ref=sinq-20",
         "pros": ["即時語法檢查", "風格建議", "多種平台支援", "瀏覽器擴展"],
         "cons": ["高級功能需付費", "有時會誤判"],
         "price": "免費 / $12/月起",
@@ -94,7 +97,7 @@ AI_TOOLS = [
     {
         "name": "DALL-E 3",
         "category": "AI 圖像生成",
-        "affiliate_url": "https://openai.com/dall-e-3",
+        "affiliate_url": "https://openai.com/dall-e-3?ref=sinq-20",
         "pros": ["理解複雜描述", "文字生成準確", "與 ChatGPT 整合", "安全過濾"],
         "cons": ["需要 OpenAI 帳號", "生成有額度限制"],
         "price": "免費（含額度）/ $15起",
