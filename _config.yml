@@ -13,6 +13,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Site URL - this is crucial for GitHub Pages
+baseurl: "/ai-affiliate-site"
+url: "https://abcnm123456.github.io"
+
 # Permalinks
 permalink: /:title/
 
