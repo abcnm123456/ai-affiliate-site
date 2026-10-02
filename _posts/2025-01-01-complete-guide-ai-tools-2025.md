@@ -32,7 +32,7 @@ Notion AI 將你熟悉的筆記系統升級為智能助理。
 
 **定價：** $10/月起（訂閱 Notion Plus 方案）
 
-👉 [立即開始使用 Notion AI](https://notion.so/product/ai)
+👉 [立即開始使用 Notion AI](https://notion.so/product/ai?affiliate_id=sinq-20)
 
 ---
 
@@ -48,7 +48,7 @@ Notion AI 將你熟悉的筆記系統升級為智能助理。
 
 **定價：** 免費開始，Pro 版 $12.99/月
 
-👉 [探索 Canva AI 功能](https://www.canva.com/ai/)
+👉 [探索 Canva AI 功能](https://www.canva.com/ai/?affiliate_id=sinq-20)
 
 ---
 
@@ -64,7 +64,7 @@ Notion AI 將你熟悉的筆記系統升級為智能助理。
 
 **定價：** 免費使用，Pro 版 $20/月
 
-👉 [立即開始使用 Claude](https://claude.ai)
+👉 [立即開始使用 Claude](https://claude.ai?affiliate_id=sinq-20)
 
 ---
 
