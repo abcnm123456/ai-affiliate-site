@@ -1,0 +1,37 @@
+title: AI Tools Review
+email: admin@ai-tools-review.com
+description: >-
+  專業 AI 工具評測與推薦，幫你找到最適合的 AI 解決方案
+baseurl: ""
+url: ""
+twitter_username: aitoolsreview
+github_username: abcnm123456
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Minima theme customization
+header_pages:
+  - about.md
+
+minima:
+  social_links:
+    twitter: aitoolsreview
+    github: abcnm123456
+
+# Paginate
+paginate: 10
+paginate_path: "/page/:num/"
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: "AI Tools Review"
