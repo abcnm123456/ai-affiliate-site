@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "關於我們"
 date: 2024-01-01
 permalink: /about/
