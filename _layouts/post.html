@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - AI Tools Review</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: #f5f5f5;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+        header a { color: white; text-decoration: none; }
+        nav { margin-top: 1rem; }
+        nav a { color: rgba(255,255,255,0.8); margin: 0 1rem; text-decoration: none; }
+        nav a:hover { color: white; }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        article {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        article h1 { font-size: 1.8rem; margin-bottom: 1rem; color: #333; }
+        article h2 { font-size: 1.4rem; margin: 1.5rem 0 1rem; color: #667eea; }
+        article h3 { font-size: 1.2rem; margin: 1rem 0 0.5rem; color: #333; }
+        article p { margin: 1rem 0; }
+        article ul, article ol { margin: 1rem 0 1rem 2rem; }
+        article li { margin: 0.5rem 0; }
+        article a { color: #667eea; }
+        article a:hover { text-decoration: underline; }
+        article table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+        article th, article td { border: 1px solid #ddd; padding: 0.75rem; text-align: left; }
+        article th { background: #667eea; color: white; }
+        article tr:nth-child(even) { background: #f9f9f9; }
+        article blockquote {
+            border-left: 4px solid #667eea;
+            background: #f0f4ff;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        article code { background: #f5f5f5; padding: 0.2rem 0.4rem; border-radius: 4px; }
+        article pre { background: #2d2d2d; color: #fff; padding: 1rem; border-radius: 8px; overflow-x: auto; margin: 1rem 0; }
+        article img { max-width: 100%; height: auto; border-radius: 8px; }
+        article .affiliate-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            margin: 2rem 0;
+        }
+        article .affiliate-box a {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 0.75rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+        article .affiliate-box a:hover { background: #f5f5f5; }
+        .post-date { color: #666; font-size: 0.9rem; margin-bottom: 1rem; }
+        .post-meta { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            margin-top: 2rem;
+        }
+        footer a { color: #667eea; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="/ai-affiliate-site/">🤖 AI Tools Review</a></h1>
+        <nav>
+            <a href="/ai-affiliate-site/">首頁</a>
+            <a href="/ai-affiliate-site/about/">關於</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <article>
+            <h1>{{ page.title }}</h1>
+            <p class="post-date">發布日期：{{ page.date | date: "%Y/%m/%d" }}</p>
+            {{ content }}
+        </article>
+    </div>
+
+    <footer>
+        <p>© 2025 AI Tools Review |
+        <a href="/ai-affiliate-site/about/">關於我們</a></p>
+    </footer>
+</body>
+</html>
