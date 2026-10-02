@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: AI 工具評測網
 permalink: /
 ---
